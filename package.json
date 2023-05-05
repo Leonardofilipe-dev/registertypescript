@@ -1,0 +1,15 @@
+{
+  "name": "register_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sucrase": "^3.32.0",
+    "typescript": "^5.0.4"
+  }
+}
